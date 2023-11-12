@@ -133,7 +133,7 @@ The extension should now be broken, assuming you clicked the switch! Only one of
 </details>
 
 <details>
-<summary><b>NEW LTMEAT</b> Disable extensions</summary>
+<summary><b>LTMEAT Flood</b> Disable extensions</summary>
 
   **If your Chromebook has received the 115 And Above patch on the stable channel, Then Here's A New Method For LTMEAT**
 
@@ -161,7 +161,7 @@ Credit to <a href="https://github.com/AshtonDavies">Ashton Davies</a> for findin
 </details>
 
 <details>
-<summary><b>Baby NEW LTMEAT</b> Disable extensions</summary>
+<summary><b>Baby LTMEAT Flood</b> Disable extensions</summary>
 
 **Unpatched on 115 and above**
 
@@ -905,9 +905,10 @@ Cool Facts About Incognito Mode:
 3. In the Email text box put `google@d11.org`
 4. Click `sign in options`
 5. Now click sign in with GitHub
-6. Click the GitHub logo
-7. In the search box on the top right type Google and then click see more topics then you will see all the Google links click `www.google.com`
-8. Profit
+6. Click forgot password
+7. Now Click the GitHub logo
+8. In the search box on the top right type Google and then on the right you will see Google links click `www.google.com`
+9. Profit
 
 </details>
 
@@ -1062,6 +1063,17 @@ Go to <a href="https://drive.google.com/file/d/1MGVFf8d9pww0M2bO9ogxQX1LyR1y6zc_
 
 
 If chrome://network is blocked, start bawling your eyes out and beat up your IT manager. 
+</details>
+
+<details>  
+<summary><b>Filter session bypass</b> Bypass hapara filter session</summary>
+
+Bookmark this link: [filtersessionbypass.txt](filtersessionbypass.txt)
+
+During a filter session, right click the link, and press "Open in a new tab"
+Then insert the URL for any website you want to go to.  Make sure to include https://<br>
+If it says "website name refused to connect", try using a web proxy.<br>
+Also this dosn't bypass blocker extentions so use an unblocked link, or another exploit.
 </details>
 
 boop
